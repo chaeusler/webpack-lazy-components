@@ -1,5 +1,7 @@
-import {getAllElementsWithAttribute} from './element-utils';
+import { ComponentRegistry, loadComponents } from './component-loader';
 
-getAllElementsWithAttribute('data-component').forEach(element => {
-    console.log(element);
-});
+const componentRegistry: ComponentRegistry = {
+    'puristic': () => import('./components/puristic')
+};
+
+loadComponents(componentRegistry);
