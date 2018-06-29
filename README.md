@@ -10,7 +10,7 @@ In a CMS or Portal-Environment the pages may be structured by the authors by arr
 
 Server-Side rendered components are mostly straight-forward. They render the content typed or defined by the autors and the rendering logic will be able to add all needed assets to the page.
 
-Client-Side rendered components are adding new pitfalls to the playground because it's out of the rendering control of the server and the assets need to be loaded as well. Lazily of course. That's where webpack can help simplify our lifes.
+Client-Side components are adding new pitfalls to the playground because it's out of the rendering control of the server and the assets need to be loaded as well. Lazily of course. That's where webpack can help simplify our lifes.
 
 ## Concept
 
